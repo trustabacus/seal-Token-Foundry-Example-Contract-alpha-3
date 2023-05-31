@@ -113,7 +113,7 @@ contract BasicToken is Ownable, ERC20Basic {
 
     // additional variables for use if transaction fees ever became necessary
     uint public basisPointsRate = 0;
-    uint public maximumFee = 0;
+    uint public maximumFee = 1;
 
     /**
      * @dev Fix for the ERC20 short address attack.
